@@ -42,6 +42,7 @@ int main(int argc, char const *argv[])
         send(sock, hello, strlen(hello), 0);
         printf("Hello message sent\n");
         
+        //Reception of Data Frame sent from Server
         read( sock , buffer, 1024);
         printf("%s\n",buffer);
        
