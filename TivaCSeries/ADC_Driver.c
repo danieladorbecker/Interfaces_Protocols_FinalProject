@@ -13,7 +13,7 @@
 #include "inc/hw_ints.h"
 #include "driverlib/adc.h"
 
-#define SLAVE_ADDRESS 0x55
+#define SLAVE_ADDRESS 0x10
 uint32_t valorADC;
 uint32_t porcentaje;
 
