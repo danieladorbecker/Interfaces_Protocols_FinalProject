@@ -468,7 +468,7 @@ void *threadI2C(void *param)
         pthread_mutex_lock(&lock);
         value = wiringPiI2CRead(fd_TI); 
         printf("\nTPS opening percentage: %i \r", value);
-        sprintf(LCD_line1,"TPS OPENING : %d ?", value);
+        sprintf(LCD_line1,"TPS OPENING :%d ?", value);
         LCD_print_text();
         newValue = (uint8_t) value;
         pthread_mutex_unlock(&lock);
