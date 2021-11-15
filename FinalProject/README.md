@@ -3,7 +3,7 @@
 The final files for the implementation of this project can be found here.
 
 
-They must be executed in the following order:
+  They must be executed in the following order:
 
     1- Compile and run ADC_Driver.c in Tiva C Series development board.
 
